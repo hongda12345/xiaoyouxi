@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>game</title>
+	<link rel="stylesheet" href="index.css">
+	<script src="index.js"></script>
+</head>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	html,body{
+		width: 100%;
+		height: 100%;
+	}
+	body{
+		overflow: hidden;
+	}
+	.char{
+		width: 60px;
+		height: 60px;
+		background: hotpink;
+		border-radius: 50%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		text-align: center;
+		line-height: 60px;
+		font-size: 26px;
+	}
+</style>
+<body>
+	<script>
+		let game=new Game();
+		game.start();
+		confirm('小妹，玩吗？');
+	</script>
+</body>
+</html>
